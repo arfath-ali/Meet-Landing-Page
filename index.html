@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+
+<body>
+
+  <header class="flex-center">
+    <img src="assets/logo.svg" alt="logo" class="header_logo" />
+    <div class="header_content flex-center">
+      <picture class="header_img_1 flex-center">
+        <source srcset="assets\desktop-specific\image-hero-left.png" alt="Group of People" media="(min-width: 1440px)"
+          class="img-hero-left" />
+        <source srcset="assets\tablet-specific\image-hero.png" alt="Group of People" media="(min-width: 768px)" />
+        <img src="assets/mobile-specific/image-hero.png" alt="Group of People" />
+      </picture>
+      <div class="header_core_content flex-center">
+        <p class="header_heading line-height-110 typo1 slate-900">Group Chat for Everyone</p>
+        <p class="header_description typo4 slate-600">Meet makes it easy to connect with others face-to-face virtually
+          and collaborate across any device.</p>
+        <div class="header_buttons flex-center">
+          <p class="header_down_btn white">Download <span class="header_version">v1.3</span></p>
+          <p class="header_query_btn white">What is it?</p>
+        </div>
+      </div>
+      <picture class="header_img_2 flex-center">
+        <source srcset="assets\desktop-specific\image-hero-right.png" alt="Group of People" media="(min-width: 1440px)"
+          class="img-hero-right" />
+        <img />
+      </picture>
+    </div>
+  </header>
+
+  <main class="flex-center">
+    <div class="main_content flex-center">
+      <div class="main_number flex-center">
+        <div class="vertical_line"></div>
+        <p class="value slate-600">01</p>
+      </div>
+
+      <div class="main_images">
+        <img src="assets/common-images/image-woman-in-videocall.jpg" alt="Women in Video Call" class="main_img1" />
+        <img src="assets/common-images/image-women-videochatting.jpg" alt="Women Video Chatting" class="main_img2" />
+        <img src="assets/common-images/image-men-in-meeting.jpg" alt="Men in Meeting" class="main_img3" />
+        <img src="assets/common-images/image-man-texting.jpg" alt="Man Texting" class="main_img4" />
+      </div>
+
+      <div class="main_core_content flex-center">
+        <p class="main_tagline line-height-110 typo3">Built for modern use</p>
+        <p class="main_heading line-height-110 typo2 slate-900">Smarter meetings, all in one place</p>
+        <p class="main_description typo4 slate-600">Send messages, share files, show your screen, and record your
+          meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data
+          export.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="flex-center">
+    <div class="footer_content flex-center">
+      <div class="footer_number flex-center">
+        <div class="vertical_line"></div>
+        <p class="value slate-600">02</p>
+      </div>
+      <div class="footer_core_content flex-center">
+        <p class="footer_heading line-height-110 typo2 white">Experience more together</p>
+        <p class="footer_description white typo4">Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.</p>
+        <div class="footer_button">
+          <p class="footer_down_btn white">Download <span class="footer_version">v1.3</span></p>
+        </div>
+      </div>
+  </footer>
+
+</body>
+
+</html>
